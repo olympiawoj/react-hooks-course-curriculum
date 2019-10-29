@@ -7,7 +7,7 @@ const activeStyle = {
 }
 
 export default function Nav({ toggleTheme }) {
-  const [theme] = React.useContext(ThemeContext)
+  const theme = React.useContext(ThemeContext)
   return (
     //now what we've done is instead of value we stuck on //contet being na object, it's now our single theme value so we don'tt want to destructure this
 
