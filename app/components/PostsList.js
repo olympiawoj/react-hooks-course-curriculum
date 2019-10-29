@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import PostMetaInfo from './PostMetaInfo'
 import Title from './Title'
 
-export default function PostsList ({ posts }) {
+export default function PostsList({ posts }) {
   if (posts.length === 0) {
     return (
       <p className='center-text'>
